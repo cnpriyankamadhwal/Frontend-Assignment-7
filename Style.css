@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+strong {
+    font-weight: 600;
+    color: #333;
+}
+
+h1 {
+    color: royalblue;
+    font-weight: 500;
+}
+
+h2,
+h3 {
+    color: #333;
+    font-weight: 500;
+}
+
+p {
+    color: #333;
+}
+
+section {
+    position: relative;
+    margin: 0 160px;
+}
+
+/* Page-1 */
+
+.design-process {
+    height: 600px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #293c45;
+}
+
+.design-process .design-process-intro {
+    padding: 50px 0px;
+}
+
+.design-container {
+    position: relative;
+}
+
+.design-container .cont-1 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 350px;
+    padding: 10px 80px 10px 10px;
+}
+
+.design-container .cont-2 {
+    position: absolute;
+    top: 0;
+    left: 33%;
+    width: 350px;
+    padding: 10px 80px 10px 10px;
+}
+
+.design-container .cont-3 {
+    position: absolute;
+    top: 0;
+    left: 65%;
+    width: 350px;
+    padding: 10px 80px 10px 10px;
+}
+
+/* Page-2 */
+
+.user-characteristics {
+    height: 1100px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #293c45;
+}
+
+.characteristics-container {
+    position: relative;
+    height: 550px;
+}
+
+.characteristic-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+}
+
+.characteristic-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+}
+
+.user-details {
+    position: relative;
+    background: #fcfcfc;
+}
+
+.user-details .info-box {
+    height: 100%;
+    width: 35%;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #b7b7b714;
+}
+
+.user-details .info-box .info {
+    padding: 15px 0;
+}
+
+.user-details .info-box .info h3 {
+    border: 2px solid #8ba4ec;
+    border-radius: 3px;
+    width: 135px;
+    text-align: center;
+    color: #6785e0;
+    background: #fff;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+/* Page-3 */
+
+.feed-container {
+    height: 750px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #293c45;
+}
+
+.feed-container .feedback-section {
+    position: relative;
+    height: 500px;
+}
+
+.feed-container .feedback-section .feedback-box {
+    border: 2px solid royalblue;
+    margin: 10px 0;
+    width: 500px;
+    padding: 20px;
+}
+
+.feedback-box a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.feedback-box ul {
+    padding: 10px 30px;
+}
+
+.feed-box-container-1 {
+    height: 300px;
+    position: relative;
+}
+
+.feed-box-container-1 .feedback-box-1 {
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.feed-box-container-1 .feedback-box-2 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+}
+
+.feed-box-container-2 .feedback-box-3 {
+    position: absolute;
+    top: 70%;
+    left: 0;
+}
+
+.feed-box-container-2 .feedback-box-4 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+
+/* Page-4 */
+
+.customer-container {
+    height: 350px;
+    margin-bottom: 100px;
+    border-bottom: 3px solid #293c45;
+}
+
+.customer-container .customer-intro {
+    margin-bottom: 50px;
+    padding-right: 100px;
+}
+
+.customer-container .features-container {
+    height: 200px;
+}
+
+.customer-container .features-container .feature {
+    width: 150px;
+    display: inline-block;
+    margin-right: 50px;
+    text-align: center;
+}
+
+/* Page-5 */
+
+.impact-container {
+    height: 650px;
+    margin-bottom: 80px;
+    border-bottom: 3px solid #293c45;
+}
+
+.impact-container .impact-intro {
+    margin-bottom: 50px;
+}
+
+.impact-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.impact-item .text {
+    position: absolute;
+    top: 10px;
+    left: 15%;
+}
+
+/* Page-6 */
+
+.learning-container {
+    height: 350px;
+    margin-bottom: 100px;
+}
+
+.learning-container .learning {
+    margin-bottom: 40px;
+}
